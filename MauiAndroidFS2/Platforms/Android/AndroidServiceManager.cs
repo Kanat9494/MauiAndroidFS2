@@ -37,10 +37,12 @@ public static class AndroidServiceManager
         }
         else
         {
-            if (IsRunning)
-            {
-                StopFService();
-            }
+            IsRunning = false;
+            //if (IsRunning)
+            //{
+            //    StopFService();
+            //    IsRunning = false;
+            //}
         }
     }
 }
